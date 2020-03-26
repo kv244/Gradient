@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title} #[br]
+	Use only files from /Users/razvanjulianpetrescu/Downloads/
+
+	form(name="upload-file", method="post")
+		div.input
+			span.label File
+			input(type="file", required name="file_upload")
+		div.actions        	
+			input(type="submit", value="Upload file")
+

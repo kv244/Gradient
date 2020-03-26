@@ -1,0 +1,9 @@
+{
+  "name": "sample-cloud-storage",
+  "version": "0.0.7",
+  "dependencies": {
+    "@google-cloud/storage": "^4.6.0",
+    "@google-cloud/vision": "^1.11.0", 
+    "@google-cloud/pubsub": "^0.28.0"
+  }
+}
